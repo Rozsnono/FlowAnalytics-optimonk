@@ -1,0 +1,72 @@
+[
+    {
+        "type": [],
+        "recommends": [
+            {
+                "title": "Streamline Flow Transition",
+                "suggestion": "This step shows significant drop-off. Ensure page navigation is smooth and there is no sudden change in tone or visual style."
+            }
+        ]
+    },
+    {
+        "type": [
+            "teaser"
+        ],
+        "recommends": [
+            {
+                "title": "Revise Copy and Hook",
+                "suggestion": "Your initial teaser has a high drop-off of ${change}%. Test bold value statements (e.g.,'Unlock 10% Off Now') instead of neutral descriptions."
+            },
+            {
+                "title": "Adjust Trigger Behavior",
+                "suggestion": "Instead of showing the teaser instantly, wait for a 5-second delay or 20% scroll depth to ensure visitors are engaged first."
+            }
+        ]
+    },
+    {
+        "type": [
+            "exit-intent"
+        ],
+        "recommends": [
+            {
+                "title": "Maximize Offer Value",
+                "suggestion": "An exit-intent popup is your last opportunity to save the session. Losing ${change}% of users implies the reward is not strong enough to stop them from leaving. Try offering a slightly higher discount or a unique perk (e.g., free shipping) to sweeten the deal."
+            },
+            {
+                "title": "Introduce FOMO and Urgency",
+                "suggestion": "Since visitors are actively trying to close the tab, add micro-copy like 'This offer expires in 10 minutes' or 'Only valid for your current session' to discourage them from clicking away to compare prices."
+            }
+        ]
+    },
+    {
+        "type": [
+            "coupon",
+            "success"
+        ],
+        "recommends": [
+            {
+                "title": "Add One-Click Auto-Copy",
+                "suggestion": "You are losing ${change}% of highly motivated users at the end. Use a distinct button that automatically copies the coupon to the clipboard."
+            },
+            {
+                "title": "Incentivize Immediate Action",
+                "suggestion": "Include a checkout button pointing directly to the cart, automatically applying the discount to minimize navigation friction."
+            }
+        ]
+    },
+    {
+        "type": [
+            "email"
+        ],
+        "recommends": [
+            {
+                "title": "Reduce Field Friction",
+                "suggestion": "The form step is a major barrier, losing ${change}% of users. Remove non-essential fields (e.g., preferences, name) and focus on email collection alone."
+            },
+            {
+                "title": "Reinforce Incentives",
+                "suggestion": "Remind users of their reward (e.g. 'Enter your email to receive your 10% coupon instantly') directly above the input box."
+            }
+        ]
+    }
+]

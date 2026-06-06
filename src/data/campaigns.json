@@ -1,0 +1,89 @@
+{
+    "campaigns": [
+        {
+            "id": "camp_001",
+            "name": "Welcome Discount Popup",
+            "device": "desktop",
+            "steps": [
+                {
+                    "id": "step_1",
+                    "name": "Teaser – 10% off",
+                    "type": "teaser",
+                    "views": 10000,
+                    "proceeds": 3200,
+                    "description": "Small teaser popup with 'Get 10% off' button."
+                },
+                {
+                    "id": "step_2",
+                    "name": "Email capture",
+                    "type": "email",
+                    "views": 3200,
+                    "proceeds": 850,
+                    "description": "Full-screen popup asking for email address."
+                },
+                {
+                    "id": "step_3",
+                    "name": "Success & coupon",
+                    "type": "success",
+                    "views": 850,
+                    "proceeds": 820,
+                    "description": "Thank-you screen with coupon code."
+                }
+            ]
+        },
+        {
+            "id": "camp_002",
+            "name": "Exit-intent Cart Saver",
+            "device": "desktop",
+            "steps": [
+                {
+                    "id": "step_1",
+                    "name": "Exit intent popup",
+                    "type": "exit-intent",
+                    "views": 7500,
+                    "proceeds": 2100,
+                    "description": "Popup triggered on exit intent with 'Wait, here's 15% off' message."
+                },
+                {
+                    "id": "step_2",
+                    "name": "Coupon reveal",
+                    "type": "coupon",
+                    "views": 2100,
+                    "proceeds": 1100,
+                    "description": "Shows coupon code and 'Apply discount' button."
+                }
+            ]
+        },
+        {
+            "id": "camp_003",
+            "name": "Mobile Newsletter Signup",
+            "device": "mobile",
+            "steps": [
+                {
+                    "id": "step_1",
+                    "name": "Mobile teaser",
+                    "type": "teaser",
+                    "views": 12000,
+                    "proceeds": 1800,
+                    "description": "Small bottom bar with 'Join our newsletter' text."
+                },
+                {
+                    "id": "step_2",
+                    "name": "Email + preferences",
+                    "type": "email",
+                    "views": 1800,
+                    "proceeds": 300,
+                    "description": "Mobile-friendly form with email and 2 preference checkboxes."
+                },
+                {
+                    "id": "step_3",
+                    "name": "Confirm subscription",
+                    "type": "success",
+                    "views": 300,
+                    "proceeds": 260,
+                    "description": "Thank-you screen confirming subscription."
+                }
+            ]
+        }
+    ]
+}
